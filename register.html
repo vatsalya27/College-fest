@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberForge 2027 - Registration</title>
+</head>
+<body>
+
+    <header>
+        <h1>CyberForge 2027</h1>
+        <h2>Participant Sign-Up Portal</h2>
+        <p>Secure your spot and compete with the best!</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="events.html">Events</a> |
+        <a href="schedule.html">Schedule</a> |
+        <a href="register.html">Registration</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <h2>Registration Form</h2>
+
+        <form>
+
+            <label>Participant Name:</label><br>
+            <input type="text" name="fullname" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label>Email ID:</label><br>
+            <input type="email" name="useremail" placeholder="Enter your official email" required>
+            <br><br>
+
+            <label>Contact Number:</label><br>
+            <input type="tel" name="userphone" placeholder="Enter mobile number" required>
+            <br><br>
+
+            <label>Branch / Stream:</label><br>
+            <select name="branch" required>
+                <option value="">Choose Branch</option>
+                <option>Computer Science & Engineering</option>
+                <option>Artificial Intelligence & Data Science</option>
+                <option>Electronics & Communication</option>
+                <option>Electrical Engineering</option>
+                <option>Information Technology</option>
+            </select>
+            <br><br>
+
+            <label>Academic Year:</label><br>
+            <select name="academic_year" required>
+                <option value="">Select Year</option>
+                <option>First Year</option>
+                <option>Second Year</option>
+                <option>Third Year</option>
+                <option>Final Year</option>
+            </select>
+            <br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="sex" value="Male"> Male
+            <input type="radio" name="sex" value="Female"> Female
+            <input type="radio" name="sex" value="Transgender"> Transgender
+            <br><br>
+
+            <label>Select Competitions:</label><br>
+            <input type="checkbox" name="comp" value="Debugging"> Speed Debugging
+            <br>
+            <input type="checkbox" name="comp" value="RoboWars"> RoboWars Arena
+            <br>
+            <input type="checkbox" name="comp" value="Design"> UI/UX Design Sprint
+            <br>
+            <input type="checkbox" name="comp" value="Esports"> Valorant Esports Showdown
+            <br>
+            <input type="checkbox" name="comp" value="Quiz"> Tech Trivia Blitz
+            <br><br>
+
+            <label>Why do you wish to join?</label><br>
+            <textarea name="statement" rows="4" cols="45" placeholder="Share your motivation..."></textarea>
+            <br><br>
+
+            <input type="submit" value="Confirm Registration">
+            <input type="reset" value="Clear Form">
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>© 2027 CyberForge | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
